@@ -1,0 +1,217 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #faf4f2;
+}
+
+.header {
+  background-color: #F8E1DB;
+/*padding khoảng cách từ nội dung tới viền*/
+  padding: 10px 40px;
+  position: fixed;
+  width: 100%;
+  /*z-index đi chung với position để đè lên 1 thẻ khác khi trùng vị trí*/
+  z-index: 10;
+}
+
+.header .logo img {
+    width: 70px;
+}
+  
+  .header .navbar {
+    margin-top: 10px;
+}
+  
+  .header .navbar a {
+    color: #000000;
+/* gạch chân */
+    /* text-decoration: underline; */
+/* gạch đầu */
+    /* text-decoration: overline; */
+/* gạch ngang */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+    /*khoảng cách giữa các thẻ*/
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header .navbar a:hover {
+    color: #ff0000;
+  }
+
+  .carousel {
+      background-image: url(../img/BG.png);
+      height: 700px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  .activity {
+    padding: 80px 0;
+  }
+  
+  .activity .title {
+    text-align: center;
+  }
+  
+  .activity .title h2 {
+    font-size: 40px;
+    color: #8d8d8d;
+    margin-top: 0;
+  }
+
+  .activity .main .row .col {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .activity .main .row .col .item {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .activity .main .row .col .item .thumbnail {
+   position: relative;
+  }
+  .activity .main .row .col .item .thumbnail img {
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .activity .main .row .col .item .thumbnail i {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* background-color: #ffffff; */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* padding: 20px; */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+  
+  }
+
+  .activity .main .row .col .item h1 {
+    font-size: 26px;
+    text-decoration: none;
+   }
+
+   .activity .main .row .col .item p {
+      font-size: 20px;
+      color: #8d8d8d;
+      line-height: 30px;
+   }
+
+   .activity .main .row .col .item a {
+      background-color: #e8e8e8;
+      display: inline-block;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: #8d8d8d;
+      border-radius: 200px;
+      letter-spacing: 2px;
+   }
+   /*css cho button ViewAll*/
+   .activity .main .buttonViewAll {
+      margin-top: 2%;
+      text-align: center;
+   }
+   .activity .main button {
+      text-align: center;
+      width: 180px;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 50px;
+      border-color: #E76F51;
+      text-decoration: #E76F51;
+      font-size: 15px;
+      color: #E76F51;
+      padding: 5px 10px;
+   }
+   /*css cho Contact*/
+   .contact {
+    background-color: #F8E1DB;
+   }
+
+   .contact .contact-col1 {
+    float: left;
+    width: 50%;
+    box-sizing: content-box;
+   }
+  
+   .contact .contact-col1 img {
+    width: 50%;
+    height: 50%;
+    padding: 15px 40px;
+  }
+
+  .contact .contact-col2 {
+    float: left;
+    padding: 37px 0px;
+    width: 50%;
+    box-sizing: content-box;
+  }
+  .contact .contact-col2 h2,h3,p {
+    color: #8D8D8D;
+  }
+  .contact .contact-col2 .media .item{
+    float: left;
+    box-sizing: content-box;
+  }
+ 
+ 
+   /* Style all font awesome icons */
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #E16C4F;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  background-color: #F8E1DB;
+  margin-top: 50px;
+ 
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+ }
+
+ .footer .moreInfo .col {
+  float: left;
+  width: 25%;
+  padding: 10px 0px;
+  box-sizing: content-box;
+ }
+
+ .footer .moreInfo .col .item{
+  padding-top: 10px;
+  padding-left: 100px;
+ }
+
+ .footer .moreInfo .col .item1{
+  padding-top: 10px;
+  padding-left: 40px;
+ }
+
+ .footer .moreInfo .col p{
+  text-decoration: none;
+ }
